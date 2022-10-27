@@ -16,7 +16,10 @@ public class EncontrarMaior {
 
         double resultado = maximo(numero1, numero2, numero3);
 
+        double mesmoResultado =  Math.max(numero1, Math.max(numero2, numero3));
+
         System.out.println("O maior valor dos três números é " + resultado);
+        System.out.println("O maior valor com metódo Math.max() dos três números é " + mesmoResultado);
 
     }
 
