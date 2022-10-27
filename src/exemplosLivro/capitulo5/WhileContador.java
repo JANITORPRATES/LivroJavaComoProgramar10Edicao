@@ -19,6 +19,9 @@ public class WhileContador
         }
         System.out.println();
 
+        System.out.print("testando o retorno");
+        System.out.print("\r");
+        System.out.print("j");
     }
 
 }

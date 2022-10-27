@@ -24,5 +24,10 @@ public class Soma
             ; // estrutura vazia
 
         System.out.printf("A soma é %d%n", total);
+        ++total;
+        System.out.println(total);
+
+
+
     }
 }
