@@ -9,7 +9,7 @@ public class Craps {
 
     private enum Status {CONTINUA, GANHOU, PERDEU};
 
-    private static final int DOIS = 2;
+    final static private int DOIS = 2;
     private static final int TRES = 3;
     private static final int SETE = 7;
     private static final int ONZE = 11;
