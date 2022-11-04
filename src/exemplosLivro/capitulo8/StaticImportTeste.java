@@ -1,0 +1,16 @@
+package exemplosLivro.capitulo8;
+
+import java.lang.Math.*;
+
+import static java.lang.Math.*;
+
+public class StaticImportTeste
+{
+    public static void main(String[] args)
+    {
+        System.out.printf("sqrt(900.0) = %.3f%n", sqrt(900.0));
+        System.out.printf("ceil(-9.8) = %.1f%n", ceil(-9.8));
+        System.out.printf("E = %f%n", E);
+        System.out.printf("PI = %f%n", PI);
+    }
+}
